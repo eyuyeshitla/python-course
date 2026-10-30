@@ -29,3 +29,5 @@ print(student["name"])
 print(student["department"])
 numbers={1,2,3,4} # this is set
 print(numbers)
+print("python is interesting")
+class
