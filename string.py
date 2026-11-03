@@ -46,7 +46,3 @@ joined= " " .join (words)
 print(name.isalpha())
 print("123".isdigit())
 print("123eyu".isalnum())
-
-number=123456004.3467
-print(f"number {number:.2f}")
-print(f"number {number:,}")
