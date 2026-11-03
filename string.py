@@ -38,12 +38,10 @@ print(name.count("e"))
 print(name.startswith("ha"))
 print(name.endswith("kel"))
 
-
 word="my name is eyu"
 words= word.split()
 print(words)
 joined= " " .join (words)
-
 
 print(name.isalpha())
 print("123".isdigit())
@@ -52,25 +50,3 @@ print("123eyu".isalnum())
 number=123456004.3467
 print(f"number {number:.2f}")
 print(f"number {number:,}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
