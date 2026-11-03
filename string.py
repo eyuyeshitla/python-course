@@ -47,6 +47,3 @@ print(name.isalpha())
 print("123".isdigit())
 print("123eyu".isalnum())
 
-
-
-
