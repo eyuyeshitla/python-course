@@ -46,6 +46,9 @@ joined= " " .join (words)
 print(name.isalpha())
 print("123".isdigit())
 print("123eyu".isalnum())
+print("python is easy")
+print("c++ is difficult")
+print("java is modrate")
 
 
 
