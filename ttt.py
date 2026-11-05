@@ -27,3 +27,5 @@ student={
 }
 print(student["name"])
 print(student["department"])
+
+print("what is wrong?")
