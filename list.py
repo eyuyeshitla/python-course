@@ -1,3 +1,4 @@
+print("list in python")
 students = ['Abebe', 'Kebede', "Ayele", "Aster" ,"Chalitu"]
 numbers = [12,23,34,56,78,90]
 
