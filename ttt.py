@@ -29,3 +29,4 @@ print(student["name"])
 print(student["department"])
 
 print("what is wrong?")
+print("what is right?")
