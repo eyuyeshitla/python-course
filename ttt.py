@@ -1,3 +1,4 @@
+print("welcome")
 print("10" +"5")# the output 105 becauase string different from integer
 a=10
 b=5
@@ -30,3 +31,4 @@ print(student["department"])
 
 print("what is wrong?")
 print("what is right?")
+
