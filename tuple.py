@@ -57,7 +57,12 @@ students= (('haile',23,'software enginering',12.16  ) ,('eyu',23,21.12 , False )
 print(students[1])
 print(students[1][0])
 
-
+ # add item in directly
+x = ('banana','orange', 'apple')
+y= list(x)
+y.append('mango')
+x= tuple(y)
+print(x)
 
 
 
