@@ -57,13 +57,22 @@ students= (('haile',23,'software enginering',12.16  ) ,('eyu',23,21.12 , False )
 print(students[1])
 print(students[1][0])
 
- # add item in directly
-x = ('banana','orange', 'apple')
+ # add item indirectly
+x = ('banana','orange', 'apple','banana', "banana", "orange")
 y= list(x)
 y.append('mango')
 x= tuple(y)
 print(x)
 
+#count
+print(x.count('banana'))
+print(x.count('apple'))
 
+
+# remove  item indirectly
+y= list(x)
+y.remove('apple')
+x= tuple(y)
+print(x)
 
 
