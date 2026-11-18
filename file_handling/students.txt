@@ -1,0 +1,5 @@
+Student list
+number 		 name		 mark
+1  		 rtyu  		 89
+2  		 xcbm  		 98
+3  		 gfhfg  		 67
