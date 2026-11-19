@@ -14,3 +14,25 @@ else:
     print("division succesfully")
 finally:
     print("program finished")    
+
+def deposit(amount):
+    if amount < 0:
+        raise ValueError("Amount can not be lessthan zero")
+    else:
+        print("deposit success")
+
+# deposit(-6)
+deposit(50)
+
+
+def withdraw(balance, amount):
+    if amount <= 0:
+        raise ValueError("Amount must be positive.")
+
+    if amount > balance:
+        raise ValueError("Insufficient balance.")
+
+    return balance - amount
+
+
+print(withdraw(1000, 3000))
