@@ -41,7 +41,7 @@ class Teacher(Person):
 
         
 student1 =Student("Abel",23,"IS")
-teacher1 =Teacher("Haile",30)    
+teacher1 =Teacher("Haile",30,"Biology")    
 print("============student information================")
 student1.displayInfo()
 student1.study()
