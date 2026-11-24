@@ -36,20 +36,9 @@ class Teacher(Person):
                  
     def displayInfo(self):
         super().displayInfo()
-<<<<<<< HEAD
-        
-        print("subject:",self.subject)     
-        
-student1 =Student("Abel",23,"IS")
-teacher1 =Teacher("Haile",30,"biology")    
-print("===========student information.============")
-student1.displayInfo()
-student1.study()
-print("===========student information.============")
+        print("Subject:",self.subject)
 
-=======
 
-print("subject",self.subject)
         
 student1 =Student("Abel",23,"IS")
 teacher1 =Teacher("Haile",30)    
@@ -57,7 +46,6 @@ print("============student information================")
 student1.displayInfo()
 student1.study()
 print("==========Teacher information============")
->>>>>>> 5dc7ea41d0889b55c2e9247ded5a898f4b8ecd91
 teacher1.displayInfo()           
 teacher1.teach()           
         
