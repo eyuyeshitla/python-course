@@ -34,10 +34,13 @@ class Teacher(Person):
     def teach(self):
             print("I am teaching.")
                  
-         
+    def displayInfo(self):
+        super().displayInfo()
+        
+        print("subject:",self.subject)     
         
 student1 =Student("Abel",23,"IS")
-teacher1 =Teacher("Haile",30)    
+teacher1 =Teacher("Haile",30,"biology")    
 
 student1.displayInfo()
 teacher1.displayInfo()           
